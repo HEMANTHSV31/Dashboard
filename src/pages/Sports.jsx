@@ -3,7 +3,7 @@ import React from 'react'
 const Sports = () => {
   return (
     <div>
-      This is a sports page
+       <h1 className='text-center'>This is the Sports page</h1>
     </div>
   )
 }

@@ -23,7 +23,7 @@ function AppLayout() {
        <Route path="/Dashboard/Exams" element={<Exams/>} />
        <Route path="/Dashboard/Achievements" element={<Achievements />} />
        <Route path="/Dashboard/sports" element={<Sports />} />
-        <Route path="/Dashboard/" element={<Dashboard />} />
+        <Route path="/" element={<Dashboard />} />
         </Routes>
     </div>
   )

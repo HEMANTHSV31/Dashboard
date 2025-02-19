@@ -3,7 +3,7 @@ import React from 'react'
 const Achievements = () => {
   return (
     <div>
-      This is the Achievements page
+       <h1 className='text-center'>This is the Achievements page</h1>
     </div>
   )
 }

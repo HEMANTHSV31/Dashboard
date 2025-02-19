@@ -3,7 +3,7 @@ import React from 'react'
 const Exams = () => {
   return (
     <div>
-      This is the exams page
+       <h1 className='text-center'>This is the Exams page</h1>
     </div>
   )
 }
