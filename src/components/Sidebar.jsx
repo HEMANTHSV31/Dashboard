@@ -5,11 +5,11 @@ import {AnimatePresence, color, motion} from "framer-motion";
 import { Menu } from 'lucide-react';
 import { Link } from 'react-router-dom'
 const SIDEBAR_ITEMS=[
-    { name:"Dashboard", icon:BarChart2 , color:"#6366f1",href:"/"},
-    { name:"Academics", icon:GraduationCap , color:"#6366f1",href:"/Academics"},
-    { name:"Exams", icon:BookCheck , color:"#6366f1",href:"/Exams"},
-    { name:"Sports", icon:Trophy , color:"#6366f1",href:"/Sports"},
-    { name:"Achievements", icon:Award,color:"#6366f1", href:"/Achievements"}
+    { name:"Dashboard", icon:BarChart2 , color:"#6366f1",href:"/dashboard"},
+    { name:"Academics", icon:GraduationCap , color:"#6366f1",href:"/academics"},
+    { name:"Exams", icon:BookCheck , color:"#6366f1",href:"/exams"},
+    { name:"Sports", icon:Trophy , color:"#6366f1",href:"/sports"},
+    { name:"Achievements", icon:Award,color:"#6366f1", href:"/achievements"}
 ]
 const Sidebar = () => {
     const [isSidebarOpen,setIsSidebarOpen] = useState(true);
