@@ -20,7 +20,7 @@ function Login() {
             <div style={styles.container}>
                 <div style={styles.formContainer}>
                     <label style={styles.label}>
-                        UserName:
+                        UserName
                         <input
                             type="text"
                             onChange={handleUser}
@@ -49,7 +49,7 @@ function Login() {
             justifyContent: 'center',
             alignItems: 'center',
             height: '100vh',
-            backgroundColor: '#0000FF',
+            backgroundColor: 'white',
             padding: '0 20px',
         },
         formContainer: {
@@ -65,19 +65,21 @@ function Login() {
             marginBottom: '8px',
             color: '#333',
             display: 'block',
-            marginLeft: '10px',
+            marginLeft: '50px',
         },
         input: {
-            padding: '10px',
-            marginBottom: '15px',
-            borderRadius: '5px',
+            padding: '8px',
+            marginBottom: '5px',
+            // marginLeft:'10px',
+            borderRadius: '10px',
             border: '1px solid #ccc',
-            width: '100%',
+            width: '80%',
             fontSize: '1rem',
         },
         submitButton: {
             width: '60%',
-            padding: '12px',
+            padding: '10px',
+            marginLeft: '70px',
             backgroundColor: 'blue',
             color: 'white',
             border: 'none',
